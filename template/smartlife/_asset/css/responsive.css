@@ -1,0 +1,2723 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width: 1000px) {
+
+.listCntBox{width: 95%;}
+.listCntBox .columnList ul li {
+    font-size: 14px;
+}
+.faqTab li {
+    font-size: 14px!important;
+    width: 15.6%!important;
+}
+
+.faqTab li:nth-child(3){width: 6%!important;}
+.faqTab li:nth-child(6),
+.faqTab li:nth-child(8){
+	    width: 8%!important;
+}
+
+}
+
+@media screen and (max-width: 800px) {
+#main #slider01 li.pic{height: 80vw; min-height: 340px;}
+#slider01 .inn{
+	top: 65%;
+	width: 90%;
+	-webkit-transform: translateY(-65%) translateX(-50%);
+	transform: translateY(-65%) translateX(-50%);
+}
+#slider01 .inn img {
+	width: 100%;
+	max-width: 100%;
+}
+.bx-wrapper .bx-controls-direction a { top: 56% !important;}
+.panel_l,
+.panel_r{ position: absolute; top: 30.5%;}
+.panel_l{ left: 11.5%;}
+.panel_r{ right: 11.5%;}
+.panel_l a, .panel_r a { width: 32vw; height: 16vw;}
+
+}
+@media screen and (max-device-width: 780px) {
+/*
+#main{
+	width: 100vw;
+	height: 700px!important;
+}
+#main #slider01 li.pic{
+	width: 100%;
+	height: 700px!important;
+}
+*/
+#newsTopics .inner{width: 100%;}
+}
+
+@media screen and (max-width: 750px) {
+.pc{display: none!important;}
+.sp{display: block!important;}	
+
+#section{
+    padding: 40px 0 40px 0;
+}
+#home #section .inner{padding: 0;}
+#home #section .inner.columnIdxBox{padding: 30px 10px 0px 10px;}
+#section .inner {
+    width: 100%;
+    min-width: 100%;
+    padding: 0 10px;
+}
+.tabSp{
+	position: fixed;
+	top:0px;
+	z-index: 9999;
+}
+.main {
+	width: 100%;
+	min-width: 100%;
+    height: 250px;
+}
+.main h2 {
+    position: absolute;
+    font-size: 25px;
+    top: 70%;
+}
+.main h2 span {
+    display: block;
+    font-size: 13px;
+}
+h2.md {
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+}
+h2.md hr {
+    margin: 12px 0 12px 0;
+}
+.breadcrumb{display: none;}
+.virtual{width: 80%;margin: 0 auto;}
+.virtual iframe{pointer-events: auto!important;height: 320px!important;}
+
+.gridtab>dd li span {
+    padding: 5px 15px;
+    display: block;
+    font-size: 12px;
+}
+
+/*LooopHome*/
+#merit .wrap .pic {
+    width: 100%;
+    float: none;
+}
+#merit .wrap .txt {
+    width: 100%;
+    float: none;
+}
+.home_280W .wrap .left {
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.home_280W .wrap .left img {
+    width: 40%;
+}
+.home_280W .wrap .right {
+    float: none;
+    width: 100%;
+}
+#powercon ul.fourPoint {
+    margin-bottom: 20px;
+}
+#powercon ul.fourPoint li {
+    float: left;
+    width: 49%;
+    margin: 0 2% 2% 0;
+    padding: 10px 0;
+}
+#powercon ul.fourPoint li:nth-child(2n){margin: 0 0 2% 0;}
+
+.item .pwLayout .left {
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.item .pwLayout h4{margin-bottom: 10px!important;}
+
+.selectPanel .r {
+    float: none;
+    width: 100%;
+    margin-top: 10px;
+}
+.selectPanel .r p{font-size: 13px;}
+.idec .image{margin-bottom: 10px;}
+.idec .image img{width: 100%;}
+
+#trestle .logo {
+    width: 100%;
+    float: none;
+}
+#trestle .txt {
+    width: 100%;
+    float: none;
+    margin-top: 10px;
+}
+.house #security img{width: 100%;}
+.longsystem .logo {
+    width: 100%;
+    float: none;
+}
+.longsystem .txt {
+     width: 100%;
+    float: none;
+}
+.longsystem .bt span {
+    width: 100%;
+    padding: 10px 0;
+}
+#security.item{margin-bottom: 0;}
+
+/*LooopFit*/
+.l_fit .productInfo hr {
+    margin: 20px auto 20px 0;
+}
+.three_point .image img {
+    width: 100%;
+}
+.matome dt {
+	font-size: 13px;
+    width: 100%;
+    display: block;
+}
+.matome dd {
+    padding: 5px 0 5px 10px;
+    width: 100%;
+    font-size: 13px;
+    display: block;
+}
+.condiList {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.l_fit .condiList h4 span {
+    display: block;
+    font-weight: bold;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    padding: 4px 0px;
+    font-size: 13px;
+    margin: 0 0 10px 0!important;
+    width: 100%;
+}
+.torikumiList .pic {
+    float: none;
+    width: 100%;
+    margin: 0 0 0 0px;
+}
+
+/*Looopwind*/
+.l_wind .productDetail h2.logo img {
+	width: 100%;
+    height: auto;
+}
+.l_wind .productDetail .price {
+    font-size: 18px;
+}
+.l_wind .productInfo hr {
+    margin: 20px auto 20px 0;
+}
+.l_wind .aboutWind .logo img {
+    height: 80px;
+    width: auto;
+}
+.l_wind .classNK h4 {
+    font-size: 16px;
+    text-align: left;
+    padding: 8px 0 8px 10px!important;
+    margin-bottom: 12px!important;
+    border-bottom: none!important;
+    color: #0068b6;
+}
+.l_wind .classNK ul li {
+    width: 100%;
+    float: left;
+    margin: 0 0 0 0;
+    padding: 0px;
+}
+.l_wind .classNK ul li .pic{text-align: center;background-color: #fff;padding: 10px 0;margin-bottom: 10px;}
+.l_wind .classNK ul li .pic img {
+    width: 40%;
+}
+.l_wind .item .layout .left {
+    float: none;
+    width: 100%;
+    margin-bottom: -1px;
+}
+.item .layout .left {
+    float: none;
+    width: 100%;
+}
+.item .layout .right {
+    float: none;
+    width: 100%;
+}
+
+/* みえるーぷ*/
+.miel .classNK h4{color: #0068b6;text-align: left;padding-left: 10px!important;}
+.miel .classNK ul li {
+    width: 100%;
+    float: none;
+    margin: 0 0 10px 0;
+    padding: 0px;
+}
+.miel .classNK ul li .pic{text-align: center;background-color: #fff;}
+.miel .classNK ul li .pic img {
+    width: 50%;
+}
+.miel .classNK ul li .md {
+    text-align: center;
+    color: #0068b6;
+    font-weight: bold;
+    font-size: 15px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+}
+.miel .classNK ul li .md br{display: none;}
+.flowStep dt {
+    display: block;
+    width: 100%;
+    padding: 4px 10px;
+    text-align: left;
+}
+.flowStep dd {
+    display: block;
+    width: 100%;
+    padding: 5px 0 5px 0px;
+}
+
+/*まもループ*/
+.mimemamo .icon span {
+    margin: 0 1px;
+    font-size: 13px;
+    border: 2px solid #0068b6;
+    padding: 3px 4px;
+}
+.lowPoint ul li {
+    float: none;
+    width: 100%;
+    height: auto;
+    margin: 0 0 15px 0;
+}
+.lowPoint ul li .md {
+    text-align: left;
+    font-weight: bold;
+    padding: 3px 0 4px 5px;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+.serviceWrap {
+    padding: 10px;
+}
+.serviceWrap ul li {
+    width: 100%;
+    margin: 0 0 5px 0;
+    float: left;
+    font-size: 12px;
+}
+.serviceWrap ul li .md {
+    margin-bottom: 7px;
+}
+.serviceWrap ul.three li {
+    width: 100%;
+    margin: 0 0 5px 0;
+}
+.serviceWrap ul.oneTwo li:nth-child(2) {
+    width: 100%;
+    float: none;
+}
+.serviceWrap ul.oneTwo li:nth-child(3) {
+    width: 100%;
+    float: none;
+}
+
+#options { margin-top: 2em;}
+
+.detailBox .item .serviceOpt h4 {
+	font-size: 180%;
+	float: none;
+	line-height: 1.4;
+	padding: 1em 0 0;
+	margin: 0;
+}
+.detailBox .item .serviceOpt h4:first-child { padding-top: 0;}
+.detailBox .serviceOpt h4 + .price,
+.detailBox .serviceOpt h4:first-child + .price { line-height: 1; padding: 2px 0 0;}
+.detailBox .serviceOpt dl { width: auto; float: none;}
+.detailBox .serviceOpt .img { width: auto; float: none; text-align: center; padding-top: 0;}
+.detailBox .serviceOpt .img img { max-width: 400px;}
+
+.damage {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+#section .failureCase .damage  th {
+    padding: 5px 10px;
+}
+.answer {
+    font-size: 16px;
+}
+#section .standardPrice th{width: 200px;}
+.variation .fa{color: #000;}
+.variation .fa.disable {
+    color: #ccc;
+}
+.variation dt {
+    float: none;
+    width: 100%;
+    clear: both;
+    padding: 0 0 3px 0;
+}
+.variation dd {
+    width: 100%;
+    margin-left: 0%;
+    padding: 0 0 10px 0;
+}
+
+/*ソラシェア*/
+.solashare .productDetail h2.logo img.mb20 {
+    margin-bottom: 10px;
+    float: none;
+}
+.solashare .productDetail h2.logo img{height: 38px;}
+.caselist h4 span {
+    padding: 2px 5px;
+    margin: 0 4px 0 0;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.caselist h4 {font-size: 13px!important;}
+.solashare .caselist .pic img{width: 100%;}
+
+
+/*ソーラーパネル*/
+.solarpanel .productDetail h2.logo img.mb20 {
+    margin-bottom: 10px;
+    float: none;
+}
+#product_detail .title .icon {
+    top: 0px;
+}
+#product_detail .title .icon img{height: 35px;}
+#product_detail .title span {
+    padding: 0 0 0 55px;
+    font-size: 16px;
+}
+#product_detail .title {
+    margin-bottom: 20px;
+}
+.solarpanelList table{width: 100%;}
+.solarpanelList table.left {
+    float: none;
+    width: 100%!important;
+    margin-bottom: -1px;
+}
+.solarpanelList table.right {
+    float: none;
+    width: 100%!important;
+}
+.brandlist ul li img {
+    height: 25px;
+    margin-bottom: 10px;
+}
+.productDetail hr {
+    margin: 20px 0 20px 0;
+}
+.solarpanelList table th{
+	padding: 6px 10px!important;
+}
+.solarpanelList table td{
+	padding: 6px 10px!important;
+	text-align: center!important;
+}
+
+/*ネクスタフ*/
+.nextoughP .productDetail h2.logo img.mb20 {
+    margin-bottom: 10px;
+    float: none;
+}
+.start img{width: 100%;}
+.classNK {
+    padding: 8px;
+}
+.detailBox .classNK h3 {
+    margin-bottom: 8px!important;
+}
+.detailBox .classNK h4 {
+    margin-bottom: 8px!important;
+}
+.aboutWind {
+    padding: 10px;
+    margin: 8px 0;
+}
+.aboutWind .logo {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.aboutWind .logo img{height: 60px;width: auto;}
+.aboutWind .txt {
+    float: none;
+    width: 100%;
+}
+.toughlist {
+    padding: 10px;
+}
+.toughlist .list {
+    padding: 10px;
+}
+#section .toughlist .list th {
+    text-align: center;
+    padding: 5px 2px;
+}
+#section table td {
+    padding: 5px 2px;
+}
+.toughlist .list .wrap .left {
+    width: 100%;
+    float: none;
+}
+.toughlist .list .wrap .right {
+    width: 100%;
+    float: none;
+}
+#supportBox .wrap .left {
+    width: 100%;
+    margin-bottom: 25px;
+    float: none;
+}
+#supportBox .wrap .right {
+     width: 100%;
+    float: none;
+}
+
+/*メガハイ*/
+.productDetail h2.logo img.mb20 {
+    margin-bottom: 10px;
+    float: left;
+}
+ul.charact.three li {
+    width: 49%;
+    margin: 0 2% 2% 0;
+}
+ul.charact.three li:nth-child(2n){
+	margin: 0 0 2% 0;
+}
+#solution .pic {
+    padding: 0px 0 0 0;
+}
+.instructions .title ul li {
+    float: none;
+    width: 100%;
+    font-size: 15px;
+    border-top: 1px solid #0068b6;
+    padding: 10px 0;
+}
+.instructions .point ul {
+    padding: 10px;
+}
+.instructions .point ul li {
+    text-align: center;
+    float: none;
+    width: 100%;
+    margin: 1px;
+}
+.instructions .point ul li .inn {
+    padding: 6px;
+}
+.highmega .kitlist ul li {
+    width: 49%;
+    margin: 0 2% 2% 0;
+}
+.highmega .kitlist ul li:nth-child(2n){margin: 0 0 2% 0;}
+.highmega .kitlist ul li:nth-child(3n) {
+    margin: 0 2% 2% 0;
+}
+.highmega h4{font-size: 16px;margin: 0 0 10px 0;}
+.supportProduct ul li .logo {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.supportProduct ul li .logo img{width: auto;height: 40px;}
+.supportProduct ul li .txt {
+    float: none;
+    width: 100%;
+    font-size: 13px;
+}
+
+/*折半屋根型*/
+ul.roof li {
+	width: 100%!important;
+    margin: 0 0 0 0!important;
+    float: none;
+}
+
+/*スタンドアロン*/
+.standalone p {
+    text-align: left;
+}
+.standalone p br{display: none;}
+.rakutenBox ul li {
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+.rakutenBox ul li:nth-child(2n) {
+   margin: 0 0 30px 0;
+}
+
+/*コンディショナー*/
+.productDetail.conditioner h2.logo img {
+	width: 100%!important;
+    height: auto;
+}
+.picConditioner img{width: 100%;}
+.pointList ul {
+    width: 100%;
+    float: none;
+}
+.pointList ul li{font-size: 13px;}
+.pointList ul li span {
+    font-size: 13px;
+}
+.conditioner .item .layout h4 {
+    font-size: 12px;
+    padding: 4px 0 4px 3px;
+}
+.specificationTabel.range{margin: 0!important;}
+#security table th,
+#security table td {
+    padding: 5px 10px;
+}
+
+/*MYKIT68cis*/
+.peakcut .left {
+    width: 100%;
+    float: none;
+    margin-bottom: 15px;
+}
+.peakcut .right {
+    width: 100%;
+    float: none;
+}
+ul.cis li {
+    width: 49%;
+    margin: 0 0 2% 0!important;
+}
+ul.cis li:nth-child(2n) {
+    width: 49%;
+    margin: 0 2% 2% 0%!important;
+}
+ul.cis li:nth-child(3n) {
+    margin: 0 0 2% 0!important;
+}
+.frontier ul li {
+    float: none;
+    width: 100%;
+    padding: 10px;
+    margin: 0 0 2px 0;
+}
+.frontier ul li .md {
+    font-size: 14px;
+    padding: 3px 0;
+}
+.frontier ul li p{font-size: 13px;}
+
+/*MYKIT12*/
+.selectPanel4 .panelPoint .pic {
+    float: none;
+    width: 100%;
+}
+.selectPanel4 .panelPoint ul {
+    float: none;
+    width: 100%;
+    margin-top: 5px;
+}
+.selectPanel4 .panelPoint ul li {
+    width: 100%;
+}
+.moreSolar {
+    text-align: right;
+    padding: 2px 0 0 0;
+    font-size: 12px;
+}
+.four ul li {
+    width: 49%!important;
+    margin: 0 2% 0 0;
+}
+.four ul li:nth-child(2n){margin: 0 0 2% 0;}
+.four ul li:nth-child(3n){margin: 0 2% 2% 0!important;}
+ul.selectPanelModule li .txt .md {
+    font-size: 13px;
+}
+.module p {
+    margin-bottom: 10px;
+}
+.panelOut {
+    font-size: 16px!important;
+}
+#section .cost table td.ask {
+    font-size: 15px;
+}
+
+/*製品共通*/
+.productDetail h2.logo img {height: 42px;}
+.productDetail h2.logo {margin-bottom: 3px;}
+.productDetail .price {font-size: 22px;}
+.productDetail .price.ask {
+    font-size: 16px;
+    padding: 2px 0;
+}
+.productDetail .remarks {font-size: 10px;}
+.productDetail .spec {
+    padding: 4px 0 10px 0;
+}
+.productDetail .spec ul li {
+    font-size: 14px;
+    margin: 0 3px;
+}
+.productDetail .picMain {
+    margin: 0 auto 25px;
+}
+.picMain .remark {
+    margin: 8px 0 0 0;
+    font-size: 10px;
+}
+.good {
+    margin: 0px 0 0 0;
+}
+.good img {
+    height: 15px;
+}
+.productInfo {
+    margin-bottom: 30px;
+}
+.productInfo h3 {
+    font-size: 17px;
+    line-height: 140%;
+}
+.productInfo h3 br{display: none;}
+.productInfo p {
+    font-size: 14px;
+    line-height: 150%;
+}
+.detailBox .side {
+    float: none;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.detailBox .side .md {
+    width: 100%;
+    font-size: 15px;
+    padding: 20px 0 12px 0;
+}
+.detailBox .side .fixnav {
+    padding: 0;
+    width: 100%;
+    margin: 0px 0 0 0;
+    position: relative!important;
+}
+.detailBox .side .fixnav ul {
+    padding-bottom: 0px;
+}
+.detailBox .side .fixnav ul li {
+    border-bottom: 1px solid #fff;
+    background-color: #f1f1f1;
+}
+.detailBox .side .fixnav ul li a span {
+    display: block;
+    font-size: 13px;
+    padding: 6px 0px 6px 25px;
+    background-image: url(../img/arrow_b.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 4px 7px;
+}
+.detailBox .box {
+    width: 100%;
+    float: none;
+    padding: 0 0 20px 0;
+    margin: 0;
+}
+.detailBox .item h3 {
+    font-size: 16px;
+    line-height: 130%;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+.detailBox .item h4 {
+    font-size: 15px;
+    padding: 7px 0 7px 10px;
+    margin-bottom: 15px;
+    line-height: 130%;
+}
+.detailBox .item h4 br{display: none;}
+ul.charact {
+    overflow: hidden;
+    margin-bottom: 18px;
+}
+ul.charact li {
+    width: 49%;
+    margin: 0 2% 2% 0;
+}
+ul.charact li:nth-child(2n){margin: 0 0 2% 0;}
+ul.charact li .txt p {
+    font-size: 10px;
+}
+.range {
+    margin-bottom: 25px;
+}
+.detailBox .hd {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+ul.selectPanelModule {
+    margin-bottom: 15px;
+}
+ul.selectPanelModule li {
+    width: 49%;
+    float: left;
+    margin: 0 2% 0px 0;
+}
+ul.selectPanelModule li .pic {
+    float: none;
+    width: 100%;
+    margin: 0 0 7px 0;
+}
+ul.selectPanelModule li .txt {
+    width: 100%;
+    float: none;
+    padding: 0 0 0px 0;
+}
+.panelPoint {
+    padding: 10px;
+}
+.panelPoint ul li {
+    width: 100%;
+    float: none;
+    padding: 7px 0;
+    font-size: 13px;
+}
+ul.reason {
+    margin-bottom: 15px;
+}
+ul.reason li {
+    width: 49%;
+    height: auto!important;
+    float: left;
+    margin: 0 2% 0 0;
+}
+ul.reason li .pic {
+    float: none;
+    width: 100%;
+    margin: 0 0 7px 0;
+}
+ul.reason li .txt {
+    width: 100%;
+    float: none;
+}
+.dualglass {
+    text-align: center;
+    padding: 6px 0;
+}
+.dualglass img{width: 100%;}
+ul.reason li.one {
+   float: none;
+}
+.selectConditioner.range{margin-bottom: 0;}
+.detailBox .item {
+    margin-bottom: 30px;
+}
+.kitlist ul li {
+    width: 32%;
+    margin: 0 2% 2% 0;
+    font-size: 10px;
+}
+.kitlist ul li:nth-child(3n){margin: 0 0 2% 0;}
+
+
+/*tableをスクロールさせる*/
+/*tableのセル内にある文字の折り返しを禁止*/
+.basilisk table{width: 500px!important;}
+.basilisk {
+ overflow: auto;
+ white-space: nowrap;
+ margin-bottom: 10px;
+}
+
+/*tableにスクロールバーを追加*/
+.basilisk::-webkit-scrollbar {
+ height: 5px;
+}
+
+/*tableにスクロールバーを追加*/
+.basilisk::-webkit-scrollbar-track {
+ background: #F1F1F1;
+}
+
+/*tableにスクロールバーを追加*/
+.basilisk::-webkit-scrollbar-thumb {
+ background: #BCBCBC;
+}
+.mamoImg {
+    padding: 15px 0;
+}
+
+.mamoImg img {
+	width: 100%;
+    height: auto;;
+}
+#section .specialPrie table th {
+    padding: 6px 0px;
+}
+.mieImg img {
+	width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.monitoringPont .left {
+    width: 100%;
+    float: none;
+    font-size: 13px;
+}
+.monitoringPont dl{ float: none; width: 100%;}
+.monitoringPont dt span {
+    padding: 3px 5px;
+}
+.monitoringPont .right {
+    width: 100%;
+    float: none;
+}
+.detailBox .item h4.icon {
+    padding: 0px;
+    line-height: 1;
+    margin-bottom: 15px;
+    border-top: none;
+    border-bottom: 1px solid #ddd;
+    border-left: none;
+    background-color: #fff;
+}
+h4.icon img {
+    height: 40px;
+}
+.item .layout h4{
+	font-size: 13px;
+	padding: 4px 0 4px 5px;
+}
+.item .layout p{font-size: 10px;}
+.ex ul li {
+    float: none;
+    width: 100%;
+    margin: 0 0 2px 0;
+    height: 80px;
+    color: #fff;
+    position: relative;
+}
+.ex ul li:nth-child(1){width: 49%;float: left;margin: 0 2% 2% 0;}
+.ex ul li:nth-child(2){width: 49%;float: left;margin: 0 0 2% 0;}
+.ex ul li:nth-child(3){width: 100%;float: none;clear: both;}
+.ex ul li .num {
+    font-size: 20px;
+}
+.condition ul {
+    padding: 10px 0 0 0;
+}
+.condition ul li {
+    margin: 5px 0 10px 0;
+    font-size: 13px;
+}
+.condition ul li .fa{display: none;}
+.condition ul li span {display: block;}
+.cost .left {
+    width: 100%;
+    float: none;
+}
+.cost .right {
+    width: 100%;
+    float: none;
+    padding: 15px 0 0 0;
+}
+.cost .right p {
+	font-size: 13px;
+    line-height: 150%;
+}
+.requirement {
+    margin-bottom: 15px;
+}
+.requirement ul li .md {
+    font-size: 14px;
+    margin: 0 0 20px 0;
+}
+.requirement ul li .hd {
+    font-size: 14px;
+}
+.requirement ul li p {
+    font-size: 11px;
+    text-align: left;
+}
+.requirement ul li p br{display: none;}
+
+#product #supportlist ul li .md {
+    margin-bottom: 2px;
+    font-size: 13px;
+}
+#supportlist ul li .logo img {
+    height: 15px;
+}
+#supportlist ul li p {
+    text-align: left;
+    margin: 2px 0 0 0;
+    font-size: 11px;
+}
+#supportlist ul li p br{display: none;}
+.btProductBack {
+    margin: 10px 0 0 0;
+}
+.btProductBack span {
+    padding: 10px 0;
+    font-size: 15px;
+}
+#similar {
+    margin: 15px 0 0 0;
+}
+#similar .productList {
+    width: 100%;
+    min-width: 100%;
+    padding: 30px 10px 0 10px;
+}
+#similar h2.md {
+    font-size: 17px;
+    letter-spacing: 0.03em;
+}
+
+/*製品情報まわり*/
+#product .productList ul li .title {height: 35px;overflow: hidden;margin-bottom: 2px;}
+#product .productList ul li .title img{width: 100%;height: auto;}
+#product .productList ul li .title.logo_l_home img{width: 96%;height: auto;}
+#product .productList ul li .title.nextough img{width: 85%;height: auto;}
+#product .productList ul li .title.power{font-size: 15px;line-height: 110%;height: 40px;} 
+#product .productList ul li .title.om{height: 45px;} 
+#product .productList ul li .title.om img{width: 65%;height: auto;}
+#product .productList ul li .title.l_fit img{width: 80%;height: auto;}
+#product .productList ul li .txtlogo {
+    font-size: 15px;
+    line-height: 1;
+    font-weight: bold;
+    padding: 4px 0 2px 0;
+}
+#product .productList ul li.turbine .txtlogo {
+    font-size: 14px;
+    line-height: 1;
+    font-weight: bold;
+    padding: 0px 0 2px 0;
+}
+#product .productList ul li.good_cnt .txtlogo {
+    font-size: 14px;
+    line-height: 120%;
+    font-weight: bold;
+    padding: 0px 0 2px 0;
+}
+#product .productList ul li.good_cnt .txtlogo span{font-size: 10px;}
+#product .productList ul li.good_cnt .pic {
+    margin-bottom: 2px;
+}
+#product .productList ul li.alone .icon{display: none;}
+.productList ul li .hd .icon span{padding: 2px 3px;font-size: 10px;}
+#product .productList ul li h2 {
+    font-size: 13px;
+    letter-spacing: 0em;
+}
+#product .productList ul li h2.md hr {
+    width: 50px;
+    border: 2px solid #ddd;
+    margin: 5px 0 12px 0;
+}
+hr.cept {
+    margin: 20px auto 30px;
+}
+.remarks a {
+    padding-bottom: 0px;
+}
+
+/*バーチャルツアーまわり*/
+#virtual_tour .inner p{
+	text-align: left;
+}
+#virtual_tour .inner p br{display: none;}
+#virtual_tour .inner .lead {
+    line-height: 160%;
+    margin-bottom: 20px;
+}
+.virtual {
+    padding: 0 0px 40px;
+}
+.virtual iframe{height: 380px;}
+.virtual p {
+    text-align: right;
+    padding: 0 10px 0 0;
+    font-size: 13px;
+}
+#virtual_tour #section table th {
+    width: 100%;
+    display: block;
+    padding: 5px 10px;
+}
+#virtual_tour #section table td {
+    width: 100%;
+    text-align: left;
+    display: block;
+    border: none;
+    padding: 5px 0px;
+}
+
+/*関西ツアーまわり*/
+#tour .main {
+    height: 450px;
+}
+#tour .main .tourTitle {
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+}
+#tour .main .tourTitle .date {
+    font-size: 15px;
+    color: #fff;
+    line-height: 200%;
+    font-size: 13px;
+}
+#tour .main .tourTitle .date span {
+    padding: 5px 8px;
+    font-size: 12px;
+    margin: 0 4px;
+}
+#tour .main .tourTitle .area span {
+    padding: 5px 8px;
+    font-size: 14px;
+}
+#tour .main .tourTitle .title {
+    font-size: 26px;
+}
+#tour .main .tourTitle .lead {
+    font-size: 14px;
+}
+.tour h2.md hr {
+    margin: 10px auto 10px;
+}
+.tour .lead {
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+}
+.tour .lead br{display: none;}
+#tour .tour {
+    margin-bottom: 20px;
+}
+.tourReserveBox {
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+.tourReserveBox .inner h3 {
+    color: #fff;
+    text-align: center;
+    line-height: 150%;
+    margin-bottom: 25px;
+}
+.tourReserveBox .inner h3 {
+    color: #fff;
+    text-align: left;
+    line-height: 150%;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+.tourReserveBox .inner h3 br{display: none;}
+.tourReserveBox .inner p {
+    color: #fff;
+    text-align: left;
+    line-height: 160%;
+}
+.tourReserveBox .inner p br{display: none;}
+.tourReserveBox .inner .bt span {
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+#tour #section table th {
+    width: 100%;
+    display: block;
+    padding: 5px 10px;
+}
+#tour #section table td {
+    width: 100%;
+    text-align: left;
+    display: block;
+    border: none;
+    padding: 5px 0px;
+}
+#tour #section table td dt{font-weight: bold;}
+#tour #section table td dd{font-size: 12px;}
+
+#tour iframe{width: 100%;height: 200px;}
+#mapBox img{width: 100%;height: auto;}
+#virtual_tour .inner hr.cept {
+    width: 100%;
+    margin: 35px auto 25px;
+}
+.telContact h3 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+.telContact .txt {
+    font-size: 14px;
+}
+.telContact .txt span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/*サポートまわり*/
+#support h2.title .icon img {
+    width: 50px;
+    height: 50px;
+}
+#support h2.title .icon {
+    margin-bottom: 10px;
+}
+#support h2.title {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 130%;
+}
+#support h2.title .lead {
+    font-size: 14px;
+    margin: 15px 0 0 0;
+    line-height: 150%;
+    text-align: left;
+}
+#support.installation h2.title .lead{text-align: center;}
+#support .box {
+    margin-bottom: 20px;
+}
+#support h3 {
+    font-size: 16px;
+    padding: 6px 8px;
+    border-left: 2px solid #0068b6;
+    margin-bottom: 15px;
+    line-height: 130%;
+}
+#support .box .wrap .txt {
+    float: none;
+    width: 100%;
+}
+#support h4 {
+    margin: 0px 0 15px 0;
+    font-size: 16px;
+    line-height: 150%;
+}
+#support .box .wrap .image {
+    float: none;
+    width: 100%;
+}
+#support #section table th {
+    width: 100%;
+    padding: 5px 10px;
+    display: block;
+}
+#support #section table td {
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 5px 0px;
+}
+#support #section table td img{width:100%;}
+
+#support .navi h2 {
+    font-size: 18px;
+    margin: 20px 0;
+}
+#support .navi ul li {
+    width: 49%;
+    margin: 0 2% 0 0;
+    float: left;
+}
+#support .navi ul li:nth-child(2n){margin: 0 0 2% 0!important;}
+#support .navi ul li .title {
+    font-size: 12px;
+    text-align: left;
+}
+.wrapLeft {
+    width: 100%;
+    float: none;
+}
+.wrapRight {
+    width: 100%;
+    float: none;
+}
+.proposal ul li {
+    width: 49%;
+    font-size: 16px;
+    float: left;
+    margin: 0 2% 2% 0;
+}
+.proposal ul li:nth-child(2n){margin: 0 0 2% 0;}
+.proposal ul li span {
+    padding: 14px 0;
+}
+#support .box .imageIcon {
+    text-align: center;
+    margin-bottom: 0px;
+}
+#support .box .imageIcon img{width: 100%;}
+#support .conditions {
+    padding: 50px 0;
+    background-image: url(../../support/img/pic01.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-bottom: 30px;
+}
+#support .conditions .inn {
+    width: 100%;
+    padding: 0 10px;
+}
+#support .conditions .inn img {
+    width: 100%;
+}
+#support .pattern .left {
+    width: 100%;
+    float: none;
+}
+#support .pattern .md {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+#support .pattern .right {
+    width: 100%;
+    float: none;
+    margin-top: 15px;
+}
+.flowSupport {
+    padding: 30px 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.flowSupport img {
+    width: 100%;
+}
+.faqSupport {
+    margin-bottom: 30px;
+}
+#support .contactBox .title {
+    font-size: 20px;
+}
+#support .contactBox p {
+    margin-bottom: 10px;
+}
+#support .contactBox .bt span {
+    font-size: 16px;
+    padding: 15px 0px;
+}
+#support .contactBox {
+    margin-bottom: 30px;
+}
+
+/*お客様の声まわり*/
+.selectCategory {
+    width: 100%;
+}
+.selectCategory .md {
+    float: none;
+    margin: 0px 0 5px 0;
+}
+.selectCategory .selecter {
+    float: none;
+}
+.selectCategory .selecter ul li {
+    float: left;
+    width: 32%;
+    margin: 0 2px 3px 0px;
+}
+.selectCategory .selecter ul li select {
+    height: 35px;
+    font-size: 13px;
+    width: 100%;
+}
+.selectCategory ul.category {
+    overflow: hidden;
+    padding: 0 0 20px 0;
+}
+.selectCategory ul.category li {
+    width: 49%;
+    margin: 0 2% 2% 0;
+    border-top: 4px solid #eee;
+    padding: 7px 0 0 0;
+    font-size: 14px;
+}
+.selectCategory ul.category li:nth-child(2n){margin: 0 0 2% 0;}
+.selectCategory ul.category li:nth-child(2n) span{border-right: none;}
+.projectList ul li {
+    border-top: 1px solid #ddd;
+    float: left;
+    width: 49%;
+    height: 250px!important;
+    margin: 0 2% 20px 0;
+}
+.projectList ul li:nth-child(2n){margin:0 0 2% 0; }
+.projectList ul li .category {
+    font-size: 10px;
+    padding: 7px 0 3px 0;
+}
+.projectList ul li .title {
+    font-size: 14px;
+    margin: 0 0 7px 0;
+}
+.projectList ul li .icon{overflow: hidden;}
+.projectList ul li .info dl {
+    float: left;
+    margin: 0 5px 0 0;
+}
+.projectDetail .title {
+    font-size: 20px;
+    line-height: 130%;
+}
+.lightSlider.lsGrab li{height: 280px;}
+.basicInfo .md {
+    font-size: 14px;
+    margin: 0 0 10px 0;
+}
+#section .basicInfo th {
+    width: 100%;
+    text-align: left;
+    display: block;
+    padding: 6px 10px;
+    font-size: 14px;
+}
+#section .basicInfo td {
+    width: 100%;
+    text-align: left;
+    display: block;
+    border: none;
+    padding: 6px 0px;
+    font-size: 14px;
+}
+.voiceBox .md {
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+    padding: 0 0 5px 0;
+    margin: 0 0 10px 0;
+}
+.voiceBox dt {
+    font-size: 14px;
+    line-height: 150%;
+}
+.voiceBox dd {
+    font-size: 14px;
+    line-height: 150%;
+}
+
+/*ニュースまわり*/
+#info .tab {
+    width: 100%;
+    margin: 0 auto 20px;
+}
+#info .tab ul {
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 1px solid #fff;
+}
+#info .tab ul li {
+    width: auto;
+    margin: 0 1px;
+    font-size: 11px;
+}
+#info .tab ul li:nth-child(1){width: 18%;}
+#info .tab ul li:nth-child(2){width: 18%;}
+#info .tab ul li:nth-child(3){width: 34%;}
+#info .tab ul li:nth-child(4){width: 27%;}
+#info .tab ul li span {
+    padding: 6px 0px;
+}
+#info .newsList {
+    width: 100%;
+    float: none;
+}
+#info .newsList dt {
+    float: none;
+    width: 100%;
+    clear: both;
+    padding: 10px 0 2px 0;
+}
+#info .newsList dd {
+    width: 100%;
+    margin-left: 0;
+    padding: 0 0 10px 0;
+}
+#info .navigation {
+    width: 100%;
+    float: none;
+}
+#info .navigation {
+    width: 100%;
+    float: none;
+    margin-top: 30px;
+}
+#info .navigation .naviCategory {
+    margin-bottom: 17px;
+}
+#info .navigation .md {
+    padding: 25px 0 10px 0;
+    font-size: 16px;
+}
+#info .navigation ul li {
+    border-top: 1px solid #eee;
+    padding: 7px 0;
+    font-size: 13px;
+}
+
+#info .newsBox {
+    width: 100%;
+    float: none;
+}
+#info .newsBox .date {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+#info .newsBox .title p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+#info .entry table{width: 100%!important;font-size: 12px!important;}
+#info .entry table th,
+#info .entry table td{
+	    padding: 5px 10px!important;
+}
+#info .entry table th,
+#info .entry table td{width: auto!important;line-height: 120%!important;}
+#info .mediaCategory {
+    margin-bottom: 15px;
+}
+#info .mediaCategory ul li{
+	width: 16.2%;
+	margin: 0 1px 0 0;
+	padding: 4px 0 0
+}
+#info .mediaCategory ul li span{padding: 5px 0;font-size: 12px;}
+
+/*コラムまわり*/
+#column .columnBox {
+    width: 100%;
+    float: none;
+}
+#column .columnList ul li {
+    float: left;
+    width: 49%;
+    margin: 0 2% 2% 0;
+    padding: 0 0 0 0;
+}
+#column .columnList ul li:nth-child(2n){margin: 0 0 2% 0;}
+#column .columnList ul li .pic {
+    margin-bottom: 6px;
+}
+#column .columnList ul li .sb_category span {
+    font-size: 11px;
+    color: #0068b6;
+    background-color: #f1f1f1;
+    line-height: 1;
+    padding: 3px 7px;
+    border-radius: 2px;
+}
+#column .columnList ul li .title {
+    font-size: 12px;
+    margin: 0 0 0px 0;
+}
+#column .navigation {
+    width: 100%;
+    float: none;
+    margin-top: 30px;
+}
+#column .navigation .naviCategory {
+    margin-bottom: 17px;
+}
+#column .navigation .md {
+    padding: 25px 0 10px 0;
+    font-size: 16px;
+}
+#column .navigation ul li {
+    border-top: 1px solid #eee;
+    padding: 7px 0;
+    font-size: 13px;
+}
+#column .columnEntry h2 {
+    margin-bottom: 15px;
+}
+#column .columnEntry h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.columnEntry .pic {
+    margin-bottom: 15px;
+}
+.columnEntry .lead {
+    padding: 12px;
+    line-height: 150%;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+.columnEntry .entry {
+    margin-bottom: 25px;
+}
+.columnEntry .entry h4 {
+    padding: 25px 0 10px 0;
+    line-height: 130%;
+}
+#column .columnEntry p{word-break: break-all;}
+
+/*フォームまわり*/
+.formBox p {
+    margin-bottom: 15px;
+}
+#section .formBox table th {
+    width: 100%;
+    display: block;
+    border: none;
+    padding: 5px 10px;
+}
+#section .formBox table td{
+	width: 100%;
+    display: block;
+    text-align: left;
+    border: none;
+    padding: 10px 0px;
+    vertical-align: middle;
+}
+#section .formBox table th span.space {display: none;}
+#section .formBox table th span {
+    margin: 0 7px 0 0;
+    display: inline-block;
+    padding: 2px 5px;
+    border-radius: .25em;
+    background-color: #fff;
+    font-size: 11px;
+}
+.policyBox {
+    margin: 0px auto 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+}
+.policyBox .title {
+    font-size: 16px;
+}
+.formBox p {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.policyBox dd{font-size: 10px;}
+.policyBoxes dd .box .md{font-weight: bold;font-size: 16px;margin-bottom: 10px;}
+
+.sbm {
+    font-size: 13px;
+    padding: 10px 4px;
+    width: 100%;
+    border-radius: 0px;
+    margin-bottom: 7px;
+}
+
+#contact .tab ul {
+    width: 100%;
+}
+#contact .tab ul li{width: 49%;margin: 1px;font-size: 12px;}
+#contact .tab ul li span {
+    padding: 7px 0;
+}
+.tab {
+    margin: 0 auto 20px;
+}
+.telBox {
+    margin-bottom: 20px;
+}
+textarea{resize: vertical;}
+#contact .tab {
+    border-bottom: none;
+}
+#contact .hamburger{display: none;}
+#contact .tabSp{display: none;}
+#contact .main {
+    height: 40px;
+    background-image: none;
+}
+
+/*よくあるご質問*/
+.qaCategory {
+    margin-bottom: 15px;
+}
+.qaCategory ul li {
+    padding: 2px 10px 0;
+    font-size: 13px;
+    margin: 0 2px 0 0;
+}
+#faq .lead {
+    text-align: left;
+}
+.faqList ul {
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.faqList ul li {
+    width: 100%;
+    font-size: 13px;
+    float: left;
+    margin: 0 0 1px 0;
+}
+.faqList ul li span {
+    padding: 7px 0;
+}
+.faqBox {
+    margin: 0 0 30px 0;
+}
+.faqBox .title {
+    font-size: 17px;
+    margin: 0 0 5px 0;
+}
+.faqBox dl {
+    padding: 10px 0;
+}
+.faqBox dt {
+    font-size: 15px;
+    margin: 0 0 5px 0;
+}
+.faqBox dd {
+    font-size: 13px;
+    line-height: 150%;
+}
+
+
+
+/*ポリシーまわり*/
+.iso img{height: 60px;}
+.pre {
+    font-size: 13px;
+}
+.pre span{font-size: 16px;}
+
+/*トップ*/
+/*
+#main {
+    height: 350px!important;
+    min-height: 350px;
+}
+#main .wrap .item {
+    top: 65%;
+    -webkit-transform: translateY(-65%) translateX(-50%);
+    transform: translateY(-65%) translateX(-50%);
+}
+.bx-wrapper .bx-controls-direction a {
+    top: 58%!important;
+}
+
+#main .wrap .item p{margin-top: 0;}
+#main .wrap .item p img {height: 48px;}
+#main .wrap .item h2 {
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    margin: 0 0 0px 0;
+}
+#main #slider01 li.pic{
+	height: 350px!important;
+}
+*/
+.productBox {padding: 0px 10px!important;}
+.productBox .hdSet { margin-bottom: 15px;}
+.productBox h2 {
+    font-size: 22px;
+}
+.productBox h2 span {
+    margin: 0 0 0 6px;
+    font-size: 12px;
+    font-weight: normal;
+}
+.productList ul li {
+    float: left;
+    width: 49%;
+    height: auto!important;
+    margin: 0 2% 2% 0;
+    position: relative;
+}
+.productList ul li:nth-child(2n){margin: 0 0 2% 0;}
+.productList ul li .hd {
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+.productList ul li .hd .view{display: none;}
+.productList ul li .pic {
+    height: 120px;
+    margin-bottom: 7px;
+}
+.productList ul li p {
+    font-size: 12px;
+    color: #0068B6;
+}
+
+.productList ul li.mykit .pic img { height: 30px;}
+.productList ul li.looophome .pic img {height: 20px;}
+.productList ul li.nextough .pic img {height: 32px;}
+.productList ul li.fit .pic img {height: 23px;}
+.productList ul li.om .pic img {height: 35px;}
+
+#newsTopics {
+    padding: 30px 10px 30px 10px;
+}
+#newsTopics .inner h2 {
+    font-size: 22px;
+    text-align: left;
+    margin: 0 0 10px 0;
+}
+#newsTopics .inner h2 span {
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 0 0 6px;
+}
+#newsTopics .more {
+    width: 80%;
+    top: 28px;
+    right: 10px;
+    left: auto;
+    -webkit-transform:none;
+    transform: none;
+    z-index: 1;
+    text-align: right;
+    vertical-align: middle;
+}
+#newsTopics .more img{height: 25px;}
+#newsTopics .inner dl {
+    width: 100%;
+    font-size: 13px;
+}
+#newsTopics .inner dt {
+    float: none;
+    width: 100%;
+    clear: both;
+    padding:0 0 2px 0;
+}
+#newsTopics .inner dd {
+    width: 100%;
+    margin-left: 0;
+    padding: 0 0 10px 0;
+}
+#voiceBox {
+  height: 200px;
+  padding: 0 10px;
+  width: 100%;
+  background-size: cover;
+}
+#voiceBox .bt {
+    width: 100%;
+}
+#voiceBox .bt img {
+    height: 32px;
+}
+.btVoice span {
+    width: 50%;
+    font-size: 12px;
+    padding: 6px 0;
+}
+.columnIdxBox {
+    padding: 30px 10px 0px 10px;
+}
+.columnIdxBox .hdSet {
+    margin-bottom: 10px;
+}
+.columnIdxBox .more{display: none;}
+.columnIdxBox .columnList ul li {
+    width: 49%;
+    margin: 0 2% 2% 0;
+    padding: 0 0 0 0;
+}
+.columnIdxBox .columnList ul li:nth-child(2n){margin: 0 0 2% 0;}
+.columnIdxBox .columnList ul li:nth-child(3) {
+    margin: 0 2% 2% 0;
+}
+.columnList ul li .category {
+    margin-bottom: 7px;
+}
+.columnList span {
+    font-size: 11px;
+    padding: 3px 7px;
+}
+#home .columnList ul li .sb_category span {
+    font-size: 11px;
+    padding: 3px 7px;
+}
+.columnList ul li .title {
+    font-size: 13px;
+    margin: 0 0 5px 0;
+}
+.columnList ul li .title a {
+    font-weight: normal!important;
+}
+.columnIdxBox hr {
+    margin: 20px auto 20px;
+}
+.bnrBox {
+    margin-bottom: 0px;
+}
+.bnrBox ul{margin-bottom: 5px;}
+.bnrBox ul li {
+    float: none;
+    width: 100%;
+    margin: 0 0 5px 0;
+}
+
+#supportIdxBox {
+    padding: 30px 10px;
+}
+#supportIdxBox .md {
+    margin: 0 0 20px 0;
+}
+#supportIdxBox .md img {
+    height: 45px;
+}
+#supportIdxBox .supportBox .more {display: none;}
+#supportIdxBox .supportBox {
+    width: 85%;
+}
+.supportBox ul li {
+    width: 100%;
+    float: none;
+    margin: 0 0 25px 0;
+}
+
+.supportBox ul li .title {
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+    padding: 0 0 7px 0;
+    margin: 0 0 7px 0;
+}
+.supportBox ul li p{margin: 0;font-size: 12px;}
+#customerBox .inner .left {
+    width: 100%;
+    float: none;
+    padding: 20px 10px 10px 10px;
+    border-left: none;
+    border-right: none;
+}
+#customerBox .inner .left .wrap .md {
+    text-align: center;
+    font-size: 20px;
+}
+#customerBox dt {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 8px;
+}
+#customerBox dd {
+    display: block;
+    padding: 0px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 1;
+}
+#customerBox .fa {
+    color: #000;
+}
+#customerBox .inner .right {
+    width: 100%;
+    float: none;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+}
+#customerBox .right ul li span {
+    padding: 10px 0;
+}
+
+/*ヘッダー回り*/
+#header{display: none;}
+
+.fa{color: #fff;}
+#headerSp{
+	display: block;
+    border-bottom: 1px solid #0a51a1;
+    position: fixed;
+    width: 100%;
+    background-color: #0a51a1;
+    top:0;
+    left: 0;
+    z-index: 9999;
+}
+#headerSp .wrap {
+    overflow: hidden;
+}
+#headerSp .logo img{height: 50px;}
+#headerSp .logo {
+    float: left;
+    width: auto;
+    height: 50px;
+    margin: 5px 0 0 10px;
+}
+#headerSp .gte {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	margin: 0;
+}
+h1.hd01 {display: none;}
+#menuRight{
+	float: right;
+	width: 170px;
+	height: 60px;
+	text-align: right;
+	position: relative;
+}
+.hamburger{
+	position: absolute;
+	top:32px;
+	left: inherit;
+	right:10px;
+	white-space: nowrap;
+}
+span.cep {
+    display: inline-block;
+    color: #fff;
+    padding: 0 5px;
+}
+.newsHdBt {
+    font-size: 12px;
+}
+
+/*フッターまわり*/
+#footer {
+    padding: 30px 0 0px 0;
+}
+#footer .inner {
+    width: 100%;
+    min-width: 100%;
+    margin: 0 auto;
+    padding:0 10px 10px 10px;
+}
+#customerBox .inner {
+    width: 100%;
+    min-width: 100%;
+    border-left: none;
+    border-right: none;
+}
+#footer .btmLink .inner {
+    width: 100%;
+    min-width: 100%;
+}
+#footer .inner .logo img {
+    height: 30px;
+}
+#footer .inner ul li.w45 {
+    width: 100%;
+}
+#footer .sitemap .wrap {
+    display: none;
+}
+#footer .inner ul li {
+    float: left;
+    width: 49%;
+    margin: 0 2% 2% 0!important;
+}
+#footer .inner ul li:nth-child(1n){margin: 0 0 4px 0!important;}
+.sitemap .fa {
+    color: #000;
+}
+#footer .btmLink .inner ul.sb {
+    float: none;
+    width: 100%;
+    padding: 0 10px;
+}
+#footer .btmLink .inner ul.sb li{margin-right: 10px!important;font-size: 12px;}
+#footer .btmLink .inner .copyright {
+    font-size: 12px;
+    padding: 0px 10px 0 10px;
+    float: right;
+}
+
+.sitemap .fa {
+    color: #000;
+}
+#footer .sitemap ul .title{
+	font-weight: bold;
+	color: #0a51a1;
+	border-bottom:none;
+	padding:4px 10px;
+	margin-bottom: 8px;
+	background-color: #fff;
+}
+#footer .sitemap ul{margin-bottom: 10px;}
+#footer .sitemap ul li.md{
+	width: 100%;
+	float: none;
+	font-size: 14px;
+	font-weight: bold!important;
+	color: #0a51a1;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 3px;
+}
+#footer .sitemap ul li.md a{font-weight: bold!important;color: #0a51a1;}
+#footer .sitemap ul li{font-size: 11px;}
+
+.btError li{float: none;width: 100%;margin-bottom: 2px;}
+.btError li.bt span {
+    width: 100%!important;
+    color: #fff;
+    padding: 10px 0!important;
+    display: block;
+}
+
+
+
+/*サイトマップ*/
+.sitemapList ul{margin: 0px;}
+.sitemapList ul .title{
+	font-size: 16px;
+}
+.sitemapList ul li.md{
+	font-size: 14px;
+}
+.sitemapList ul li{
+	width: 50%;
+	font-size: 12px;
+}
+
+.entry p iframe{
+  width: 100%;
+  height: 100%;
+  min-height: 220px;
+}
+
+table.conditions th{width: 40%!important;padding: 10px 5px;}
+table.conditions td{width: 60%!important;padding: 10px 5px;}
+
+.miemamo img{width: auto!important;height: 30px!important;}
+
+
+/*LooopHome*/
+.mainHomeBox {
+    min-width: 100%;
+    background-image: url(../../product/img/homeMain_sp.jpg);
+}
+.wrapTitle {padding: 25px 0 0 0;}
+.wrapTitle .title img {height: 50px;}
+.wrapTitle p {font-size: 12px;}
+.wrapTitle h3 {
+    font-size: 19px;
+    letter-spacing: 0.02em;
+    margin: 20px 0 12px 0;
+    line-height: 150%;
+}
+.wrapTitle h4 {
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.threePoint {
+    width: 100%;
+    padding: 0 10px;
+}
+.threePoint ul li {
+    width: 100%;
+    float: none;
+    margin: 30px 0px 5px 0;
+}
+.threePoint ul li .number {
+    font-size: 75px;
+}
+.threePoint ul li .txt {
+    height: auto!important;
+}
+.mdPanel {
+    width: 100%;
+    padding: 0 10px;
+    margin-top: 40px;
+}
+.mdPanel img{width: 100%;}
+#plusBox {
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto 40px;
+}
+#plusBox .logoPlus img {
+    height: auto;
+    width: 100%;
+}
+#plusBox .logoPlus {
+    text-align: center;
+    margin: 25px 0 10px 0;
+}
+#plusBox p.lead {
+    font-size: 13px;
+    line-height: 160%;
+    letter-spacing: 0.05em;
+    margin-bottom: 15px;
+}
+#plusBox p.lead span {
+    font-size: 18px;
+}
+.balloon {
+    font-size: 17px;
+    padding: 7px 0;
+    margin-bottom: 20px;
+    line-height: 150%;
+}
+.areaEx > .md {
+    font-size: 15px;
+}
+.areaEx .md span {
+    font-size: 18px;
+    letter-spacing: 0em;
+    display: inline-block;
+    margin: 0 3px;
+}
+.areaEx .price_img img {
+    width: 100%;
+    height: auto;
+}
+.requiredList .md {
+    padding: 5px 10px;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.requiredList table th {
+  display: block;
+    width: 100%;
+    padding: 15px 0 5px 0;
+    font-size: 14px;
+    border-bottom: none;
+    color: #0068b6;
+}
+.requiredList table th br{display: none;}
+.requiredList table td {
+  display: block;
+    width: 100%;
+    padding: 0 0 15px 0;
+    font-size: 14px;
+}
+.requiredList {
+    margin-bottom: 25px;
+}
+.areaEx .btBox ul li:first-child span {
+    font-size: 16px;
+    letter-spacing: 0.05em;
+}
+.areaEx .btBox ul li:first-child span small {
+    font-size: 12px;
+}
+.areaEx .btBox ul li:last-child span {
+    font-size: 16px;
+    letter-spacing: 0em;
+}
+.looophome .productBox {
+    min-width: 100%;
+    padding: 35px 10px 25px 10px!important;
+}
+.looophome .productBox .title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.looophome .productBox .listBox {
+    width: 100%;
+}
+.longuser{text-align: left;margin-bottom: 40px;}
+
+.looophome .productBox .listBox ul li {
+    width: 100%;
+    float: none;
+    /*padding: 10px;*/
+    margin: 0 0 10px 0;
+}
+.looophome .productBox .listBox ul li .label img {
+    width: 80px;
+    height: 80px;
+}
+
+
+.looophome .productBox .listBox ul li .md {
+    font-size: 16px;
+    padding: 4px 0;
+    margin-bottom: 7px;
+}
+.l_md {
+    font-size: 20px;
+}
+.looophome .productBox .listBox ul li .txtBox {
+    padding: 15px 0 0 0;
+    height: auto!important;
+}
+.looophome .productBox .itemBox {
+    padding: 10px;
+    width: 100%;
+    margin: 40px auto 40px;
+    overflow: hidden;
+}
+.looophome .productBox .itemBox .denki {
+    float: none;
+    width: 100%;
+}
+.looophome .productBox .itemBox .pic {
+    width: 100%;
+    height: 200px;
+    float: none;
+}
+.looophome .productBox .itemBox .pic span {
+    width: 70%;
+}
+.looophome .productBox .itemBox .txt {
+    width: 100%;
+    float: none;
+    padding: 10px 0;
+    font-size: 13px;
+}
+.looophome .productBox .itemBox .txt .hd {
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+.looophome .productBox .itemBox .denchi {
+    float: none;
+    width: 100%;
+}
+.introBox {
+    width: 100%;
+    min-width: 100%;
+    padding: 25px 10px;
+}
+.fukidashi {
+    padding: 2px 0;
+    margin-bottom: 20px;
+}
+.fukidashi:before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    margin-left: -15px;
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid #0068b6;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+.fukidashi span {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    margin-left: -15px;
+    width: 0;
+    height: 0;
+    border-bottom: 15px solid #fff;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+.title_cept {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.title_cept hr {
+    margin: 6px auto 12px;
+    border-bottom: 4px solid #0068b6;
+}
+.introList {
+    width: 100%;
+    margin: 0 auto 30px;
+}
+.titleMin {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.titleMin span {
+    padding: 5px 7px;
+}
+.introList .pic {
+    width: 100%;
+    float: none;
+    margin-bottom: 20px;
+}
+.introList .txt {
+    width: 100%;
+    float: none;
+    font-size: 13px;
+}
+.introList .txt .lead {
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+.nx_point ul li {
+    width: 49%;
+    float: left;
+    margin: 0 2% 2% 0;
+    font-size: 14px;
+    padding: 12px 0;
+}
+.nx_point ul li:nth-child(2n) {
+    margin: 0 0 2% 0;
+}
+.tbl .pic {text-align: center;}
+.tbl .pic img{width: 220px;margin-left: 80px;}
+.tbl table thead th {
+    width: 40%;
+    padding: 5px 7px;
+}
+.tbl table thead td {
+    width: 60%;
+    padding: 5px 7px;
+    text-align: center;
+}
+.tbl table tbody th {
+    width: 40%;
+    padding: 5px 7px;
+}
+.tbl table tbody td {
+    width: 60%;
+    padding: 5px 7px;
+    text-align: center
+}
+.discription .md {
+    font-size: 17px;
+}
+.discription {font-size: 13px;}
+.powercon .leadcopy {
+    text-align: left;
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+.powercon .nx_point ul li {
+    padding: 15px 0;
+}
+.fourPoint .md {
+    text-align: left;
+    font-size: 17px;
+    padding-bottom: 7px;
+    margin-bottom: 15px;
+}
+.iconMd{
+  padding-left: 55px;
+}
+.fourPoint .md .icon{left: 0px;}
+.fourPoint .md .icon img {
+    width: 50px;
+    height: 50px;
+}
+ul.powerPic li {
+    width: 100%;
+    float: none;
+    margin-bottom: 7px;
+}
+ul.powerPic li:last-child img{width: 80%;}
+.fourPoint .box .type {
+    float: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.fourPoint .box .change {
+    float: none;
+    width: 100%;
+}
+.fourPoint .box .change .img {
+    margin-top: 20px;
+}
+.fourPoint .box .atte {
+    margin-top: 12px;
+    font-size: 12px;
+}
+.fourPoint .box {
+    margin-bottom: 15px;
+}
+.introList .moni .pic img {
+    width: 70%;
+}
+.introList .moni .pic{text-align: center;}
+.moni .txt .hd {
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+p.atte{margin: 0 0 5px 0;font-size: 12px;}
+.specification table{font-size: 13px;}
+.specification table th{padding: 7px 5px;}
+.specification table td{padding: 7px 5px;}
+.basilisk p{font-size: 12px;}
+.idec .titleMin{
+  padding-left: 50px;
+  text-align: center;
+}
+.idec .icon{left: 0px;top: 0px;}
+.idec .icon img {
+    width: 50px;
+    height: 50px;
+}
+.introList p.lead {
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.idecPic img{width: 100%;}
+.idec .nx_point {
+    margin-bottom: 10px;
+}
+.picImg img{width: 100%;}
+.years p {
+    margin-bottom: 10px;
+}
+.years .pic {text-align: center;}
+.years .pic img{width: 80%;}
+
+.hosho table th {
+    width: 30%;
+    padding: 7px 5px;
+    text-align: center;
+    font-size: 13px;
+}
+.hosho table td {
+    width: 70%;
+    padding: 7px 5px;
+    font-size: 13px;
+}
+.hosho p{font-size: 12px;}
+.introList .bt {
+    margin: 20px 0 0 0;
+}
+.introList .bt span {
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    padding: 10px 0;
+}
+.hems{margin-bottom: 0;}
+
+.listCntBox {
+    width: 100%;
+    padding: 35px 10px;
+}
+.listCntBox .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.listCntBox .columnList ul li {
+    float: left;
+    width: 49%;
+    margin: 0 2% 2% 0;
+}
+.listCntBox .columnList ul li:nth-child(2n){margin: 0 0 2% 0;}
+.faqList dt {
+    padding: 7px 30px 7px 10px;
+    font-size: 13px;
+}
+.ansr {
+    padding: 10px 10px;
+    font-size: 13px;
+}
+.bnrList {
+    width: 100%;
+    margin: 0 auto 20px;
+}
+.bnrList ul li {
+    width: 100%;
+    float: none;
+    margin: 0 0 10px 0;
+}
+.nav_home.fixed.up {
+    top: -15px;
+    left: 0;
+}
+.nav_home.fixed {
+    top: 92px;
+    left: 0;
+}
+.nav_home ul {
+    width: 100%;
+    min-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-right:none;
+}
+.nav_home ul li span {
+    font-size: 12px;
+    padding: 4px 0;
+}
+.nav_home ul li {
+    width: 50%!important;
+    display: block;
+    border-bottom: 1px solid #fff;
+}
+.nav_home ul li:nth-child(7),
+.nav_home ul li:nth-child(8){
+  border-bottom: none;
+}
+.nav_home ul li:nth-child(2n){
+  border-left: 1px solid #fff;
+}
+.nav_home ul li a{
+  border-left: none;
+}
+
+.ex_detail .listCntBox {
+    width: 100%;
+    padding: 20px 10px 0;
+}
+.exBox {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px 30px;
+}
+.exBox .titleBox .category span {
+    font-size: 12px;
+    padding: 2px 7px;
+}
+.exBox .titleBox .title {
+  text-align: left;
+    font-size: 17px;
+    padding: 12px 0 6px 0;
+}
+.exBox .mainGallery {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 0 40px 0;
+}
+.exBox .lightSlider.lsGrab li {
+    height: auto;
+}
+.exBox .titleMin {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+.exBox .basicInfo table tr{
+  float: left;
+  width: 50%;
+  display: block;
+  
+}
+.exBox .basicInfo table th {
+    text-align: center;
+    padding: 5px 7px;
+    display: block;
+    width: 100%;
+    border: none;
+    font-size: 13px;
+}
+.exBox .basicInfo table td {
+    text-align: center;
+    padding: 5px 7px;
+    display: block;
+    width: 100%;
+    border: none;
+    font-size: 12px;
+}
+.exBox .basicInfo {
+    margin-bottom: 30px;
+}
+.l_voiceBox {
+    margin-bottom: 40px;
+}
+.btBack span {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.moreload{
+  padding: 7px 0;
+  font-size: 16px;
+}
+.looophome .tab {width: 100%;border-bottom: none;}
+.looophome .tab li:first-child{border-left: 1px solid #0068b6;}
+.faqTab li:first-child{
+	border-left: 1px solid #0068b6!important;
+	float: left;
+  width: 49%;
+}
+.faqTab li:first-child,
+.faqTab li:nth-child(3),
+.faqTab li:nth-child(5),
+.faqTab li:nth-child(7){
+	border-left: 1px solid #0068b6!important;
+}
+.faqTab li{
+	border-right: 1px solid #0068b6!important;
+	float: left;
+  width: 49%!important;
+  margin: 2px 0 5px!important;
+}
+.faqTab li:nth-child(3){width: 49%!important;}
+.faqTab li:nth-child(6),
+.faqTab li:nth-child(8){
+	    width: 49%!important;
+}
+
+.looophome .tab li{
+  padding:8px 0;
+  color: #0068b6;
+  font-size: 14px;
+  float:none;
+  display: inline-block;
+  border-right: 1px solid #0068b6;
+  margin: 2px 0 5px!important;
+}
+.looophome .tab li:nth-child(3){border-left: 1px solid #0068b6;}
+.looophome .tab li:nth-child(4){border-right: 1px solid #0068b6;}
+
+.looophome ul.content > li {
+    width: 100%;
+    margin: 0;
+}
+
+.agency{padding: 10px;}
+.btAgency{
+  padding: 12px 2px;
+  border: 5px solid #0068b6;
+  width: 100%;
+  min-width: 100%;
+}
+.btAgency .md{font-size: 20px;font-weight: bold;}
+.btAgency p{margin: 7px 0 0 0;font-size: 13px;}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------- 480px */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

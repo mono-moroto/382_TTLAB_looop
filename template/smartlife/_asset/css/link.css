@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+a img:hover  {
+	opacity: 0.5 ;
+	filter: alpha(opacity=50) ;	/* Ie用 */
+	-webkit-transition: 0.6s ;
+	transition: 0.6s ;
+}
+
+a:link{color:#000;text-decoration:none;}
+a:visited{color:#000;text-decoration: none;}
+a:hover{color:#000;text-decoration: none;}
+a:active{color:#000;text-decoration: none;}
+
+#header a:link{color:#fff;text-decoration:none;}
+#header a:visited{color:#fff;text-decoration: none;}
+#header a:hover{color:#fff;text-decoration: none;}
+#header a:active{color:#fff;text-decoration: none;}
+
+#home #header a:link{color:#0068b6;text-decoration:none;}
+#home #header a:visited{color:#0068b6;text-decoration: none;}
+#home #header a:hover{color:#0068b6;text-decoration: none;}
+#home #header a:active{color:#0068b6;text-decoration: none;}
+
+#header.fixed a:link{color:#0068b6;text-decoration:none;}
+#header.fixed a:visited{color:#0068b6;text-decoration: none;}
+#header.fixed a:hover{color:#0068b6;text-decoration: none;}
+#header.fixed a:active{color:#0068b6;text-decoration: none;}
+
+#header.fixed .active a:link{color:#0068b6;text-decoration:none;}
+#header.fixed .active a:visited{color:#0068b6;text-decoration:none;}
+#header.fixed .active a:hover{color:#0068b6;text-decoration:none;}
+#header.fixed .active a:active{color:#0068b6;text-decoration:none;}
+
+a.button:link {color: #000;}
+a.button:hover {color: #000;}
+a.button:visited {color: #000;}
+a.button:active {color: #000;}
+
+.tab ul li.on a:link{color:#fff;text-decoration:none;}
+.tab ul li.on a:visited{color:#fff;text-decoration: none;}
+.tab ul li.on a:hover{color:#fff;text-decoration: none;}
+.tab ul li.on a:active{color:#fff;text-decoration: none;}
+
+
+
+.faqList ul li a:link{color: #fff;}
+.faqList ul li a:visited{color: #fff;}
+.faqList ul li a:hover{color: #fff;}
+.faqList ul li a:active{color: #fff;}
+
+#supportIdxBox a:link{color: #fff;}
+#supportIdxBox a:visited{color: #fff;}
+#supportIdxBox a:hover{color: #fff;}
+#supportIdxBox a:active{color: #fff;}
+
+.fixnav a:link{color: #0068b6;}
+.fixnav a:visited{color: #0068b6;}
+.fixnav a:hover{color: #0068b6;}
+.fixnav a:active{color: #0068b6;}
+
+.rakutenBox ul li .bt a:link{color: #fff;}
+.rakutenBox ul li .bt a:visited{color: #fff;}
+.rakutenBox ul li .bt a:hover{color: #fff;}
+.rakutenBox ul li .bt a:active{color: #fff;}
+
+.login a:link{color: #fff;}
+.login a:visited{color: #fff;}
+.login a:hover{color: #fff;}
+.login a:active{color: #fff;}
+
+#support .contactBox .bt a:link{color: #fff;}
+#support .contactBox .bt a:visited{color: #fff;}
+#support .contactBox .bt a:hover{color: #fff;}
+#support .contactBox .bt a:active{color: #fff;}
+
+
+.mediaCategory ul li.active a:link{color: #c473df!important;}
+.mediaCategory ul li.active a:visited{color: #c473df!important;}
+.mediaCategory ul li.active a:hover{color: #c473df!important;}
+.mediaCategory ul li.active a:active{color: #c473df!important;}
+
+.mediaCategory ul li.active span{color: #c473df!important;}
+
+.btProductBack　a:link{color: #fff;}
+.btProductBack　a:visited{color: #fff;}
+.btProductBack　a:hover{color: #fff;}
+.btProductBack　a:active{color: #fff;}
+
+#home .productList ul li .pic a:hover {
+  background-color: rgba(255,255,255,0.5);
+  -webkit-transition: 0.6s ;
+	transition: 0.6s ;
+}
+
+.policyBoxes a {
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+    padding-bottom: 3px;
+}
+#headerSp #menuRight .hamburger a:link{color: #fff!important;}
+#headerSp #menuRight .hamburger　a:visited{color: #fff!important;}
+#headerSp #menuRight .hamburger　a:hover{color: #fff!important;}
+#headerSp #menuRight .hamburger　a:active{color: #fff!important;}
+#headerSp #menuRight .hamburger span{color: #fff;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

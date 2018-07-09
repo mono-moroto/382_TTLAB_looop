@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+#footer{
+	background-color: #f1f1f1;
+	padding: 70px 0 0px 0;
+}
+
+#footer .sitemap .wrap{clear: both;}
+#footer .sitemap .wrap .title{
+	font-size: 15px;
+	font-weight: bold;
+	border-bottom: 1px solid #ddd;
+	padding: 0 0 5px 0;
+	margin-bottom: 18px;
+}
+
+#footer .inner{
+	width: 96%;
+	min-width: 1000px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+#footer .inner .logo{
+	text-align: center;
+	margin-bottom: 15px;
+}
+#footer .inner .logo img{height: 40px;}
+#footer .inner ul{overflow: hidden;}
+#footer .inner ul > li{
+	float: left;
+	width: 15%;
+	margin: 0 2.2% 0 0;
+}
+#footer .inner ul li.w45{
+	width: 47%;
+}
+#footer .inner ul li:last-child{margin: 0;}
+#footer .inner ul li .title{
+	font-size: 15px;
+	font-weight: bold;
+	border-bottom: 1px solid #ddd;
+	padding: 0 0 5px 0;
+	margin-bottom: 5px;
+}
+#footer .inner ul li .title a{font-weight: bold;}
+
+/*#footer .inner ul li:first-child ul{width: 27%;float: left;}*/
+#footer .inner ul li:first-child ul{width: 33%;float: left;}
+#footer .inner ul li ul{margin-bottom: 20px;}
+/*#footer .inner ul li ul.w50{width: 46%;}*/
+#footer .inner ul li ul.w50{width: 33%;}
+#footer .inner ul li ul li{width: 100%;margin: 0;font-size: 11px;line-height: 180%;}
+#footer .inner ul li ul li.md{
+	font-weight: bold;
+	font-size: 13px;
+	padding: 15px 0 2px 0;
+}
+#footer .inner ul li ul li.md a{font-weight: bold;}
+
+
+#footer .btmLink{
+	background-color: #fff;
+	border-top:1px solid #ddd;
+}
+#footer .btmLink .inner{
+	width: 96%;
+	min-width: 1000px;
+	margin: 0 auto;
+	padding: 15px 0;
+	overflow: hidden;
+}
+#footer .btmLink .inner .copyright{
+	color: #999;
+	font-size: 12px;
+	padding: 0px 0;
+	float: right;
+}
+#footer .btmLink .inner ul.sb{float: left;width: 600px;}
+#footer .btmLink .inner ul.sb li{width: auto!important;font-size: 13px;}
+
+#customerBox{
+	background-color: #fff;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+#customerBox .inner{
+	width: 80%;
+	min-width: 1000px;
+	border-left: 1px solid rgba(0,0,0,0.2);
+	border-right: 1px solid rgba(0,0,0,0.2);
+	overflow: hidden;
+}
+#customerBox .inner .right{
+	width: 30%;
+	float: right;
+	text-align: center;
+	padding: 30px 20px 20px 20px;
+	border-left: 1px solid rgba(255,255,255,1);
+	border-right: 1px solid rgba(255,255,255,1);
+	overflow: hidden;
+	background-color: #fff;
+}
+#customerBox .right ul{overflow: hidden;}
+#customerBox .right ul li{
+	text-align: center;
+	float: none;
+	width: 100%;
+	margin: 0 0 0 0;
+}
+#customerBox .right ul li:last-child{margin: 0;}
+#customerBox .right ul li span{
+	display: inline-block;
+	background-color: #0a51a1;
+	width: 100%;
+	padding: 15px 0;
+}
+#customerBox .right ul li a:link{color: #fff;}
+#customerBox .right ul li a:hover{color: #fff;}
+#customerBox .right ul li a:visited{color: #fff;}
+#customerBox .right ul li a:active{color: #fff;}
+
+#customerBox .inner .left{
+	width: 70%;
+	float: left;
+	text-align: center;
+	padding: 30px 20px 33px 20px;
+	border-left: 1px solid rgba(255,255,255,1);
+	border-right: 1px solid rgba(0,0,0,0.2);
+	overflow: hidden;
+	background-color: #fafafa;
+}
+#customerBox .inner .left .wrap{overflow: hidden;}
+#customerBox .inner .left .wrap .md{
+	text-align: left;
+	padding: 0 0 2px 0;
+	font-weight: bold;
+	color: #000;
+	font-size: 15px;
+}
+#customerBox dl{margin:0;}
+#customerBox dt{
+    display: table-cell;
+    width: 180px;
+    padding: 0px;
+    text-align: left;
+    color: #0a51a1;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+#customerBox dd{
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0px;
+    color: #4C4C4C;
+    font-size: 26px;
+    text-align: left;
+    font-weight: bold;
+}
+#customerBox dd span{font-size: 11px;font-weight: bold;}
+#customerBox dd a{font-weight: bold;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

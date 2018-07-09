@@ -1,0 +1,1552 @@
+/* border.css (https://github.com/gsco/border.css)
+ * Version: 1.1
+ * Author: Graeme Scott
+*/
+
+[class*="border-"] {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+
+[class*="border-"]:before, [class*="border-"]:after, [class*="border-"] > *:before, [class*="border-"] > *:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  background: #158fef;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+[class*="border-"]:before, [class*="border-"]:after {
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  height: 4px;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+[class*="border-"] > *:before, [class*="border-"] > *:after {
+  -webkit-transition-property: top, bottom;
+  transition-property: top, bottom;
+  width: 4px;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+[class*="border-"]:hover:before, [class*="border-"]:focus:before, [class*="border-"]:active:before, [class*="border-"]:hover:after, [class*="border-"]:focus:after, [class*="border-"]:active:after {
+  left: 0;
+  right: 0;
+}
+
+[class*="border-"] > *:hover:before, [class*="border-"] > *:focus:before, [class*="border-"] > *:active:before, [class*="border-"] > *:hover:after, [class*="border-"] > *:focus:after, [class*="border-"] > *:active:after {
+  top: 0;
+  bottom: 0;
+}
+
+[class*="border-box-"]:before, [class*="border-box-"]:after, [class*="border-box-"] > *:before, [class*="border-box-"] > *:after {
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+[class*="border-undo-"] {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow: hidden;
+}
+
+[class*="border-undo-"]:before, [class*="border-undo-"]:after, [class*="border-undo-"] > *:before, [class*="border-undo-"] > *:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  background: #158fef;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+[class*="border-undo-"]:before, [class*="border-undo-"]:after {
+  -webkit-transition-property: left, right;
+  transition-property: left, right;
+  height: 4px;
+}
+
+[class*="border-undo-"] > *:before, [class*="border-undo-"] > *:after {
+  -webkit-transition-property: top, bottom;
+  transition-property: top, bottom;
+  width: 4px;
+}
+
+[class*="border-undo-"]:before {
+  left: 0;
+  right: 0;
+  top: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+[class*="border-undo-"]:after {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+[class*="border-undo-"] > *:before {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+[class*="border-undo-"] > *:after {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+[class*="border-undo-box-"]:before, [class*="border-undo-box-"]:after, [class*="border-undo-box-"] > *:before, [class*="border-undo-box-"] > *:after {
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+/* Corners */
+
+.border-corners:before {
+  left: 100%;
+  right: 0;
+  top: 0;
+}
+
+.border-corners:after {
+  left: 0;
+  right: 100%;
+  bottom: 0;
+}
+
+.border-corners > *:before {
+  top: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.border-corners > *:after {
+  top: 0;
+  bottom: 100%;
+  right: 0;
+}
+
+/* Corners Reversed */
+
+.border-corners-rev:before {
+  left: 0;
+  right: 100%;
+  bottom: 0;
+}
+
+.border-corners-rev:after {
+  left: 100%;
+  right: 0;
+  top: 0;
+}
+
+.border-corners-rev > *:before {
+  top: 0;
+  bottom: 100%;
+  right: 0;
+}
+
+.border-corners-rev > *:after {
+  top: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+/* Separate */
+
+.border-separate:before {
+  left: 100%;
+  right: 0;
+  bottom: 0;
+}
+
+.border-separate:after {
+  left: 0;
+  right: 100%;
+  top: 0;
+}
+
+.border-separate > *:before {
+  top: 0;
+  bottom: 100%;
+  right: 0;
+}
+
+.border-separate > *:after {
+  top: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+/* Separate Reversed */
+
+.border-separate-rev:before {
+  left: 0;
+  right: 100%;
+  bottom: 0;
+}
+
+.border-separate-rev:after {
+  left: 100%;
+  right: 0;
+  top: 0;
+}
+
+.border-separate-rev > *:before {
+  top: 100%;
+  bottom: 0;
+  right: 0;
+}
+
+.border-separate-rev > *:after {
+  top: 0;
+  bottom: 100%;
+  left: 0;
+}
+
+/* Box Top */
+
+.border-box-top:before {
+  left: 100%;
+  right: 0;
+  bottom: 0;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.border-box-top:hover:before, .border-box-top:focus:before, .border-box-top:active:before {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.border-box-top:after {
+  left: 0;
+  right: 100%;
+  top: 0;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;  
+}
+
+.border-box-top:hover:after, .border-box-top:focus:after, .border-box-top:active:after {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;  
+}
+
+.border-box-top > *:before {
+  top: 0;
+  bottom: 100%;
+  right: 0;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;  
+}
+
+.border-box-top > *:hover:before, .border-box-top > *:focus:before, .border-box-top > *:active:before {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;  
+}
+
+.border-box-top > *:after {
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-box-top > *:hover:after, .border-box-top > *:focus:after, .border-box-top > *:active:after {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+/* Box Right */
+
+.border-box-right:before {
+  left: 100%;
+  right: 0;
+  bottom: 0;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.border-box-right:hover:before, .border-box-right:focus:before, .border-box-right:active:before {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.border-box-right:after {
+  left: 0;
+  right: 100%;
+  top: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;  
+}
+
+.border-box-right:hover:after, .border-box-right:focus:after, .border-box-right:active:after {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;  
+}
+
+.border-box-right > *:before {
+  top: 0;
+  bottom: 100%;
+  right: 0;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;  
+}
+
+.border-box-right > *:hover:before, .border-box-right > *:focus:before, .border-box-right > *:active:before {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;  
+}
+
+.border-box-right > *:after {
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.border-box-right > *:hover:after, .border-box-right > *:focus:after, .border-box-right > *:active:after {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+/* Box Bottom */
+
+.border-box-bottom:before {
+  left: 100%;
+  right: 0;
+  bottom: 0;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+.border-box-bottom:hover:before, .border-box-bottom:focus:before, .border-box-bottom:active:before {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-box-bottom:after {
+  left: 0;
+  right: 100%;
+  top: 0;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;  
+}
+
+.border-box-bottom:hover:after, .border-box-bottom:focus:after, .border-box-bottom:active:after {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;  
+}
+
+.border-box-bottom > *:before {
+  top: 0;
+  bottom: 100%;
+  right: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;  
+}
+
+.border-box-bottom > *:hover:before, .border-box-bottom > *:focus:before, .border-box-bottom > *:active:before {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;  
+}
+
+.border-box-bottom > *:after {
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.border-box-bottom > *:hover:after, .border-box-bottom > *:focus:after, .border-box-bottom > *:active:after {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+/* Box Left */
+
+.border-box-left:before {
+  left: 100%;
+  right: 0;
+  bottom: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-box-left:hover:before, .border-box-left:focus:before, .border-box-left:active:before {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+.border-box-left:after {
+  left: 0;
+  right: 100%;
+  top: 0;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;  
+}
+
+.border-box-left:hover:after, .border-box-left:focus:after, .border-box-left:active:after {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;  
+}
+
+.border-box-left > *:before {
+  top: 0;
+  bottom: 100%;
+  right: 0;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;  
+}
+
+.border-box-left > *:hover:before, .border-box-left > *:focus:before, .border-box-left > *:active:before {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;  
+}
+
+.border-box-left > *:after {
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+.border-box-left > *:hover:after, .border-box-left > *:focus:after, .border-box-left > *:active:after {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+/* Box Top Reversed */
+
+.border-box-top-rev:before {
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.border-box-top-rev:hover:before, .border-box-top-rev:focus:before, .border-box-top-rev:active:before {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.border-box-top-rev:after {
+  left: 100%;
+  right: 0;
+  top: 0;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;  
+}
+
+.border-box-top-rev:hover:after, .border-box-top-rev:focus:after, .border-box-top-rev:active:after {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;  
+}
+
+.border-box-top-rev > *:before {
+  top: 100%;
+  bottom: 0;
+  right: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;  
+}
+
+.border-box-top-rev > *:hover:before, .border-box-top-rev > *:focus:before, .border-box-top-rev > *:active:before {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;  
+}
+
+.border-box-top-rev > *:after {
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.border-box-top-rev > *:hover:after, .border-box-top-rev > *:focus:after, .border-box-top-rev > *:active:after {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+/* Box Right Reversed */
+
+.border-box-right-rev:before {
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-box-right-rev:hover:before, .border-box-right-rev:focus:before, .border-box-right-rev:active:before {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+.border-box-right-rev:after {
+  left: 100%;
+  right: 0;
+  top: 0;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;  
+}
+
+.border-box-right-rev:hover:after, .border-box-right-rev:focus:after, .border-box-right-rev:active:after {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;  
+}
+
+.border-box-right-rev > *:before {
+  top: 100%;
+  bottom: 0;
+  right: 0;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;  
+}
+
+.border-box-right-rev > *:hover:before, .border-box-right-rev > *:focus:before, .border-box-right-rev > *:active:before {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;  
+}
+
+.border-box-right-rev > *:after {
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.border-box-right-rev > *:hover:after, .border-box-right-rev > *:focus:after, .border-box-right-rev > *:active:after {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+/* Box Bottom Reversed */
+
+.border-box-bottom-rev:before {
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+.border-box-bottom-rev:hover:before, .border-box-bottom-rev:focus:before, .border-box-bottom-rev:active:before {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-box-bottom-rev:after {
+  left: 100%;
+  right: 0;
+  top: 0;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;  
+}
+
+.border-box-bottom-rev:hover:after, .border-box-bottom-rev:focus:after, .border-box-bottom-rev:active:after {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;  
+}
+
+.border-box-bottom-rev > *:before {
+  top: 100%;
+  bottom: 0;
+  right: 0;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;  
+}
+
+.border-box-bottom-rev > *:hover:before, .border-box-bottom-rev > *:focus:before, .border-box-bottom-rev > *:active:before {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;  
+}
+
+.border-box-bottom-rev > *:after {
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-box-bottom-rev > *:hover:after, .border-box-bottom-rev > *:focus:after, .border-box-bottom-rev > *:active:after {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+/* Box Left Reversed */
+
+.border-box-left-rev:before {
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.border-box-left-rev:hover:before, .border-box-left-rev:focus:before, .border-box-left-rev:active:before {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.border-box-left-rev:after {
+  left: 100%;
+  right: 0;
+  top: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;  
+}
+
+.border-box-left-rev:hover:after, .border-box-left-rev:focus:after, .border-box-left-rev:active:after {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;  
+}
+
+.border-box-left-rev > *:before {
+  top: 100%;
+  bottom: 0;
+  right: 0;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;  
+}
+
+.border-box-left-rev > *:hover:before, .border-box-left-rev > *:focus:before, .border-box-left-rev > *:active:before {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;  
+}
+
+.border-box-left-rev > *:after {
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+.border-box-left-rev > *:hover:after, .border-box-left-rev > *:focus:after, .border-box-left-rev > *:active:after {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+/* Parallel */
+
+.border-parallel:before {
+  left: 100%;
+  right: 0;
+  bottom: 0;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-parallel:hover:before, .border-parallel:focus:before, .border-parallel:active:before {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-parallel:after {
+  left: 0;
+  right: 100%;
+  top: 0;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-parallel:hover:after, .border-parallel:focus:after, .border-parallel:active:after {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-parallel > *:before {
+  top: 0;
+  bottom: 100%;
+  right: 0;
+}
+
+.border-parallel > *:hover:before, .border-parallel > *:focus:before, .border-parallel > *:active:before {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;  
+}
+
+.border-parallel > *:after {
+  top: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.border-parallel > *:hover:after, .border-parallel > *:focus:after, .border-parallel > *:active:after {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+/* Parallel Reversed */
+
+.border-parallel-rev:before {
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-parallel-rev:hover:before, .border-parallel-rev:focus:before, .border-parallel-rev:active:before {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-parallel-rev:after {
+  left: 100%;
+  right: 0;
+  top: 0;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-parallel-rev:hover:after, .border-parallel-rev:focus:after, .border-parallel-rev:active:after {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-parallel-rev > *:before {
+  top: 100%;
+  bottom: 0;
+  right: 0;
+}
+
+.border-parallel-rev > *:hover:before, .border-parallel-rev > *:focus:before, .border-parallel-rev > *:active:before {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;  
+}
+
+.border-parallel-rev > *:after {
+  top: 0;
+  bottom: 100%;
+  left: 0;
+}
+
+.border-parallel-rev > *:hover:after, .border-parallel-rev > *:focus:after, .border-parallel-rev > *:active:after {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+/* Parallel Vertical */
+
+.border-parallel-vert:before {
+  left: 100%;
+  right: 0;
+  bottom: 0;
+}
+
+.border-parallel-vert:hover:before, .border-parallel-vert:focus:before, .border-parallel-vert:active:before {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-parallel-vert:after {
+  left: 0;
+  right: 100%;
+  top: 0;
+}
+
+.border-parallel-vert:hover:after, .border-parallel-vert:focus:after, .border-parallel-vert:active:after {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-parallel-vert > *:before {
+  top: 0;
+  bottom: 100%;
+  right: 0;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-parallel-vert > *:hover:before, .border-parallel-vert > *:focus:before, .border-parallel-vert > *:active:before {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;  
+}
+
+.border-parallel-vert > *:after {
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-parallel-vert > *:hover:after, .border-parallel-vert > *:focus:after, .border-parallel-vert > *:active:after {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+/* Parallel Vertical Reversed */
+
+.border-parallel-vert-rev:before {
+  left: 0;
+  right: 100%;
+  bottom: 0;
+}
+
+.border-parallel-vert-rev:hover:before, .border-parallel-vert-rev:focus:before, .border-parallel-vert-rev:active:before {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-parallel-vert-rev:after {
+  left: 100%;
+  right: 0;
+  top: 0;
+}
+
+.border-parallel-vert-rev:hover:after, .border-parallel-vert-rev:focus:after, .border-parallel-vert-rev:active:after {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-parallel-vert-rev > *:before {
+  top: 100%;
+  bottom: 0;
+  right: 0;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-parallel-vert-rev > *:hover:before, .border-parallel-vert-rev > *:focus:before, .border-parallel-vert-rev > *:active:before {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;  
+}
+
+.border-parallel-vert-rev > *:after {
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-parallel-vert-rev > *:hover:after, .border-parallel-vert-rev > *:focus:after, .border-parallel-vert-rev > *:active:after {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+/* Undo Corners */
+
+.border-undo-corners:hover:before, .border-undo-corners:focus:before, .border-undo-corners:active:before {
+  left: 100%;
+  right: 0;
+}
+
+.border-undo-corners:hover:after, .border-undo-corners:focus:after, .border-undo-corners:active:after {
+  left: 0;
+  right: 100%;
+}
+
+.border-undo-corners > *:hover:before, .border-undo-corners > *:focus:before, .border-undo-corners > *:active:before {
+  top: 100%;
+  bottom: 0;
+}
+
+.border-undo-corners > *:hover:after, .border-undo-corners > *:focus:after, .border-undo-corners > *:active:after {
+  top: 0;
+  bottom: 100%;
+}
+
+/* Undo Corners Reversed */
+
+.border-undo-corners-rev:hover:before, .border-undo-corners-rev:focus:before, .border-undo-corners-rev:active:before {
+  left: 0;
+  right: 100%;
+}
+
+.border-undo-corners-rev:hover:after, .border-undo-corners-rev:focus:after, .border-undo-corners-rev:active:after {
+  left: 100%;
+  right: 0;
+}
+
+.border-undo-corners-rev > *:hover:before, .border-undo-corners-rev > *:focus:before, .border-undo-corners-rev > *:active:before {
+  top: 0;
+  bottom: 100%;
+}
+
+.border-undo-corners-rev > *:hover:after, .border-undo-corners-rev > *:focus:after, .border-undo-corners-rev > *:active:after {
+  top: 100%;
+  bottom: 0;
+}
+
+/* Undo Separate */
+
+.border-undo-separate:hover:before, .border-undo-separate:focus:before, .border-undo-separate:active:before {
+  left: 100%;
+  right: 0;
+}
+
+.border-undo-separate:hover:after, .border-undo-separate:focus:after, .border-undo-separate:active:after {
+  left: 0;
+  right: 100%;
+}
+
+.border-undo-separate > *:hover:before, .border-undo-separate > *:focus:before, .border-undo-separate > *:active:before {
+  top: 0;
+  bottom: 100%;
+}
+
+.border-undo-separate > *:hover:after, .border-undo-separate > *:focus:after, .border-undo-separate > *:active:after {
+  top: 100%;
+  bottom: 0;
+}
+
+/* Undo Separate Reversed */
+
+.border-undo-separate-rev:hover:before, .border-undo-separate-rev:focus:before, .border-undo-separate-rev:active:before {
+  left: 0;
+  right: 100%;
+}
+
+.border-undo-separate-rev:hover:after, .border-undo-separate-rev:focus:after, .border-undo-separate-rev:active:after {
+  left: 100%;
+  right: 0;
+}
+
+.border-undo-separate-rev > *:hover:before, .border-undo-separate-rev > *:focus:before, .border-undo-separate-rev > *:active:before {
+  top: 100%;
+  bottom: 0;
+}
+
+.border-undo-separate-rev > *:hover:after, .border-undo-separate-rev > *:focus:after, .border-undo-separate-rev > *:active:after {
+  top: 0;
+  bottom: 100%;
+}
+
+/* Undo Box Top */
+
+.border-undo-box-top:before {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+.border-undo-box-top:hover:before, .border-undo-box-top:focus:before, .border-undo-box-top:active:before {
+  left: 100%;
+  right: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-box-top:after {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.border-undo-box-top:hover:after, .border-undo-box-top:focus:after, .border-undo-box-top:active:after {
+  left: 0;
+  right: 100%;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;  
+}
+
+.border-undo-box-top > *:before {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-box-top > *:hover:before, .border-undo-box-top > *:focus:before, .border-undo-box-top > *:active:before {
+  top: 0;
+  bottom: 100%;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+.border-undo-box-top > *:after {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.border-undo-box-top > *:hover:after, .border-undo-box-top > *:focus:after, .border-undo-box-top > *:active:after {
+  top: 100%;
+  bottom: 0;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+/* Undo Box Right */
+
+.border-undo-box-right:before {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-box-right:hover:before, .border-undo-box-right:focus:before, .border-undo-box-right:active:before {
+  left: 100%;
+  right: 0;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+.border-undo-box-right:after {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.border-undo-box-right:hover:after, .border-undo-box-right:focus:after, .border-undo-box-right:active:after {
+  left: 0;
+  right: 100%;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;  
+}
+
+.border-undo-box-right > *:before {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;  
+}
+
+.border-undo-box-right > *:hover:before, .border-undo-box-right > *:focus:before, .border-undo-box-right > *:active:before {
+  top: 0;
+  bottom: 100%;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.border-undo-box-right > *:after {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+.border-undo-box-right > *:hover:after, .border-undo-box-right > *:focus:after, .border-undo-box-right > *:active:after {
+  top: 100%;
+  bottom: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+/* Undo Box Bottom */
+
+.border-undo-box-bottom:before {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.border-undo-box-bottom:hover:before, .border-undo-box-bottom:focus:before, .border-undo-box-bottom:active:before {
+  left: 100%;
+  right: 0;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.border-undo-box-bottom:after {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;  
+}
+
+.border-undo-box-bottom:hover:after, .border-undo-box-bottom:focus:after, .border-undo-box-bottom:active:after {
+  left: 0;
+  right: 100%;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;  
+}
+
+.border-undo-box-bottom > *:before {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.border-undo-box-bottom > *:hover:before, .border-undo-box-bottom > *:focus:before, .border-undo-box-bottom > *:active:before {
+  top: 0;
+  bottom: 100%;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s; 
+}
+
+.border-undo-box-bottom > *:after {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;  
+}
+
+.border-undo-box-bottom > *:hover:after, .border-undo-box-bottom > *:focus:after, .border-undo-box-bottom > *:active:after {
+  top: 100%;
+  bottom: 0;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s; 
+}
+
+/* Undo Box Left */
+
+.border-undo-box-left:before {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.border-undo-box-left:hover:before, .border-undo-box-left:focus:before, .border-undo-box-left:active:before {
+  left: 100%;
+  right: 0;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.border-undo-box-left:after {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-box-left:hover:after, .border-undo-box-left:focus:after, .border-undo-box-left:active:after {
+  left: 0;
+  right: 100%;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;  
+}
+
+.border-undo-box-left > *:before {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+.border-undo-box-left > *:hover:before, .border-undo-box-left > *:focus:before, .border-undo-box-left > *:active:before {
+  top: 0;
+  bottom: 100%;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-box-left > *:after {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.border-undo-box-left > *:hover:after, .border-undo-box-left > *:focus:after, .border-undo-box-left > *:active:after {
+  top: 100%;
+  bottom: 0;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+/* Undo Box Top Reversed */
+
+.border-undo-box-top-rev:before {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+.border-undo-box-top-rev:hover:before, .border-undo-box-top-rev:focus:before, .border-undo-box-top-rev:active:before {
+  left: 0;
+  right: 100%;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-box-top-rev:after {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;  
+}
+
+.border-undo-box-top-rev:hover:after, .border-undo-box-top-rev:focus:after, .border-undo-box-top-rev:active:after {
+  left: 100%;
+  right: 0;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.border-undo-box-top-rev > *:before {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s; 
+}
+
+.border-undo-box-top-rev > *:hover:before, .border-undo-box-top-rev > *:focus:before, .border-undo-box-top-rev > *:active:before {
+  top: 100%;
+  bottom: 0;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;  
+}
+
+.border-undo-box-top-rev > *:after {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-box-top-rev > *:hover:after, .border-undo-box-top-rev > *:focus:after, .border-undo-box-top-rev > *:active:after {
+  top: 0;
+  bottom: 100%;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+/* Undo Box Right Reversed */
+
+.border-undo-box-right-rev:before {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;  
+}
+
+.border-undo-box-right-rev:hover:before, .border-undo-box-right-rev:focus:before, .border-undo-box-right-rev:active:before {
+  left: 0;
+  right: 100%;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;  
+}
+
+.border-undo-box-right-rev:after {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-box-right-rev:hover:after, .border-undo-box-right-rev:focus:after, .border-undo-box-right-rev:active:after {
+  left: 100%;
+  right: 0;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+.border-undo-box-right-rev > *:before {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;  
+}
+
+.border-undo-box-right-rev > *:hover:before, .border-undo-box-right-rev > *:focus:before, .border-undo-box-right-rev > *:active:before {
+  top: 100%;
+  bottom: 0;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;  
+}
+
+.border-undo-box-right-rev > *:after {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+.border-undo-box-right-rev > *:hover:after, .border-undo-box-right-rev > *:focus:after, .border-undo-box-right-rev > *:active:after {
+  top: 0;
+  bottom: 100%;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+/* Undo Box Bottom Reversed */
+
+.border-undo-box-bottom-rev:before {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s; 
+}
+
+.border-undo-box-bottom-rev:hover:before, .border-undo-box-bottom-rev:focus:before, .border-undo-box-bottom-rev:active:before {
+  left: 0;
+  right: 100%;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;  
+}
+
+.border-undo-box-bottom-rev:after {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+.border-undo-box-bottom-rev:hover:after, .border-undo-box-bottom-rev:focus:after, .border-undo-box-bottom-rev:active:after {
+  left: 100%;
+  right: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-box-bottom-rev > *:before {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;  
+}
+
+.border-undo-box-bottom-rev > *:hover:before, .border-undo-box-bottom-rev > *:focus:before, .border-undo-box-bottom-rev > *:active:before {
+  top: 100%;
+  bottom: 0;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;  
+}
+
+.border-undo-box-bottom-rev > *:after {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.border-undo-box-bottom-rev > *:hover:after, .border-undo-box-bottom-rev > *:focus:after, .border-undo-box-bottom-rev > *:active:after {
+  top: 0;
+  bottom: 100%;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+/* Undo Box Left Reversed */
+
+.border-undo-box-left-rev:before {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-box-left-rev:hover:before, .border-undo-box-left-rev:focus:before, .border-undo-box-left-rev:active:before {
+  left: 0;
+  right: 100%;
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+.border-undo-box-left-rev:after {
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+.border-undo-box-left-rev:hover:after, .border-undo-box-left-rev:focus:after, .border-undo-box-left-rev:active:after {
+  left: 100%;
+  right: 0;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;  
+}
+
+.border-undo-box-left-rev > *:before {
+  -webkit-transition-delay: 0.6s;
+  transition-delay: 0.6s;
+}
+
+.border-undo-box-left-rev > *:hover:before, .border-undo-box-left-rev > *:focus:before, .border-undo-box-left-rev > *:active:before {
+  top: 100%;
+  bottom: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-box-left-rev > *:after {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.border-undo-box-left-rev > *:hover:after, .border-undo-box-left-rev > *:focus:after, .border-undo-box-left-rev > *:active:after {
+  top: 0;
+  bottom: 100%;
+  -webkit-transition-delay: 0.4s;
+  transition-delay: 0.4s;
+}
+
+/* Undo Parallel */
+
+.border-undo-parallel:before {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-undo-parallel:hover:before, .border-undo-parallel:focus:before, .border-undo-parallel:active:before {
+  left: 100%;
+  right: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-parallel:after {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-undo-parallel:hover:after, .border-undo-parallel:focus:after, .border-undo-parallel:active:after {
+  left: 0;
+  right: 100%;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-parallel > *:before {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-parallel > *:hover:before, .border-undo-parallel > *:focus:before, .border-undo-parallel > *:active:before {
+  top: 0;
+  bottom: 100%;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-undo-parallel > *:after {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-parallel > *:hover:after, .border-undo-parallel > *:focus:after, .border-undo-parallel > *:active:after {
+  top: 100%;
+  bottom: 0;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+/* Undo Parallel Reversed */
+
+.border-undo-parallel-rev:before {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-undo-parallel-rev:hover:before, .border-undo-parallel-rev:focus:before, .border-undo-parallel-rev:active:before {
+  left: 0;
+  right: 100%;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-parallel-rev:after {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-undo-parallel-rev:hover:after, .border-undo-parallel-rev:focus:after, .border-undo-parallel-rev:active:after {
+  left: 100%;
+  right: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-parallel-rev > *:before {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-parallel-rev > *:hover:before, .border-undo-parallel-rev > *:focus:before, .border-undo-parallel-rev > *:active:before {
+  top: 100%;
+  bottom: 0;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-undo-parallel-rev > *:after {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-parallel-rev > *:hover:after, .border-undo-parallel-rev > *:focus:after, .border-undo-parallel-rev > *:active:after {
+  top: 0;
+  bottom: 100%;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+/* Undo Parallel Vertical */
+
+.border-undo-parallel-vert:before {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-parallel-vert:hover:before, .border-undo-parallel-vert:focus:before, .border-undo-parallel-vert:active:before {
+  left: 100%;
+  right: 0;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-undo-parallel-vert:after {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-parallel-vert:hover:after, .border-undo-parallel-vert:focus:after, .border-undo-parallel-vert:active:after {
+  left: 0;
+  right: 100%;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-undo-parallel-vert > *:before {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-undo-parallel-vert > *:hover:before, .border-undo-parallel-vert > *:focus:before, .border-undo-parallel-vert > *:active:before {
+  top: 0;
+  bottom: 100%;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-parallel-vert > *:after {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-undo-parallel-vert > *:hover:after, .border-undo-parallel-vert > *:focus:after, .border-undo-parallel-vert > *:active:after {
+  top: 100%;
+  bottom: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+/* Undo Parallel Vertical Reversed */
+
+.border-undo-parallel-vert-rev:before {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-parallel-vert-rev:hover:before, .border-undo-parallel-vert-rev:focus:before, .border-undo-parallel-vert-rev:active:before {
+  left: 0;
+  right: 100%;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-undo-parallel-vert-rev:after {
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-parallel-vert-rev:hover:after, .border-undo-parallel-vert-rev:focus:after, .border-undo-parallel-vert-rev:active:after {
+  left: 100%;
+  right: 0;
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-undo-parallel-vert-rev > *:before {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-undo-parallel-vert-rev > *:hover:before, .border-undo-parallel-vert-rev > *:focus:before, .border-undo-parallel-vert-rev > *:active:before {
+  top: 100%;
+  bottom: 0;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}
+
+.border-undo-parallel-vert-rev > *:after {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.border-undo-parallel-vert-rev > *:hover:after, .border-undo-parallel-vert-rev > *:focus:after, .border-undo-parallel-vert-rev > *:active:after {
+  top: 0;
+  bottom: 100%;
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+}

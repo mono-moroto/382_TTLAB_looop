@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+===== base setting ==========================================
+*/
+
+body {
+	font-size: 14px;
+	font-weight: normal;
+	font-family: Verdana, "メイリオ", Meiryo,"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",  "ＭＳ Ｐゴシック", "MS PGothic", Arial, Helvetica, sans-serif;
+	color:#000;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+	letter-spacing:0;
+	-webkit-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-o-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	top: 0 !important;
+}
+
+html{overflow-x:hidden;}
+
+hr{
+	border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    width:100%;
+    margin: 16px auto 16px;
+}
+img {border-style:none;}
+li { list-style: none; }
+
+.skiptranslate iframe { display: none;}
+
+/*
+===== writing setting ==========================================
+*/
+h1, h2, h3, h4, h5 {
+    font-weight: bold;
+    line-height: 1.1;
+}
+h1{font-size: 36px;}
+h2{font-size: 30px;}
+h3{font-size: 24px;}
+h4{font-size: 18px;}
+h5{font-size: 14px;line-height: 150%;}
+
+h1 small , h2 small , h3 small , h4 small , h5 small{
+	font-size: 50%;
+	color: #666;
+}
+
+.breadcrumb {
+	width: 80%;
+	margin: 0 auto;
+	font-size: 12px;
+	padding: 15px 0;
+}
+.breadcrumb ul li {
+    display: inline;
+}
+.breadcrumb ul li+li:before {
+    content: '\00a0/\00a0';
+}
+
+p{margin: 8px 0;}
+
+table{margin: 0;empty-cells: show;}
+
+
+/*
+===== module setting ==========================================
+*/
+.clear {clear:both;}
+
+
+
+
+
